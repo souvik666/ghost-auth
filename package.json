@@ -13,5 +13,9 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souvik666/ghost-auth.git"
   }
 }
