@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/souvik666/ghost-auth.git"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+}
 }
