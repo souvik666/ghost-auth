@@ -49,6 +49,14 @@ ghost
 ghost.Login({ email: "souvik@gmail.com", password: "souvik@12345" });
 ```
 
+## Logout
+
+```js
+ghost.Logout().then((d) => {
+  console.log(d);
+});
+```
+
 ## IsAuth
 
 ```js
@@ -57,12 +65,18 @@ ghost.isAuth(token).then((d) => {
 });
 ```
 
-## Logout
+# API Documentation
 
-```js
-ghost.Logout().then((d) => {
-  console.log(d);
-});
+you can fins the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
+to use the api you will need and API-KEY please get your API key from this website LINK
+
+## FLOW
+
+```mermaid
+graph LR
+A[GO to the website] -- Grab your api key --> B(Click on authorized buttton on swagger)
+B <--> D{test the api}
+
 ```
 
 ## Author
