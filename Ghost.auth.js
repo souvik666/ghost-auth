@@ -61,7 +61,7 @@ export default class GhostAuth {
         return d.data;
       })
       .catch((d) => {
-        return d;
+        return d.data;
       });
   }
 
@@ -80,3 +80,16 @@ export default class GhostAuth {
       });
   }
 }
+
+const ghost = new GhostAuth(
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMTExQGdtYWlsLmNvbSIsIm5hbWUiOiJzb3V2aWsiLCJpYXQiOjE2NTE5MjAxOTIsImV4cCI6MTY4MzQ1NjE5Mn0.-vwcaAXsBsAV150wLoRCkPfaKgRA6QZ7Rc7lmywnDLA"
+);
+
+/* ghost
+  .Login({ email: "admin12@gmail.com", password: "Admin@12345" })
+  .then((d) => {
+    console.log(d);
+  }); */
+ghost.isAuth().then((d) => {
+  console.log(d);
+});
