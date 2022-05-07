@@ -24,6 +24,8 @@ B <--> D{test the api}
 
 ```
 
+# npm package Documentation
+
 ## Install
 
 ```sh
