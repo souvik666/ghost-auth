@@ -1,6 +1,6 @@
 {
   "name": "ghost-auth",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "",
   "main": "Ghost.auth.js",
   "scripts": {
@@ -17,8 +17,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/souvik666/ghost-auth.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-}
+  }
 }

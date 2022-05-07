@@ -57,6 +57,14 @@ ghost.isAuth(token).then((d) => {
 });
 ```
 
+## Logout
+
+```js
+ghost.Logout().then((d) => {
+  console.log(d);
+});
+```
+
 ## Author
 
 👤 **souvik666**
