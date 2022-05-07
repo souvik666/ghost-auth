@@ -15,7 +15,14 @@
 you can find the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
 to use the api or the npm package you will need an API-KEY please get your API key from this website LINK
 
+## FLOW
 
+```mermaid
+graph LR
+A[GO to the website] -- Grab your api key --> B(Click on authorized buttton and past the api-key)
+B <--> D{test the api}
+
+```
 
 # ghost-auth Documentation
 
