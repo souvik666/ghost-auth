@@ -74,7 +74,7 @@ to use the api you will need and API-KEY please get your API key from this websi
 
 ```mermaid
 graph LR
-A[GO to the website] -- Grab your api key --> B(Click on authorized buttton on swagger)
+A[GO to the website] -- Grab your api key --> B(Click on authorized buttton and past the api-key)
 B <--> D{test the api}
 
 ```
