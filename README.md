@@ -24,7 +24,7 @@ B <--> D{test the api}
 
 ```
 
-# npm package Documentation
+# ghost-auth Documentation
 
 ## Install
 
