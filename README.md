@@ -10,6 +10,20 @@
 
 > Rapidly integrate authentication and authorization for web, mobile, and legacy applications so you can focus on your core business.
 
+# API Documentation
+
+you can fins the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
+to use the api you will need and API-KEY please get your API key from this website LINK
+
+## FLOW
+
+```mermaid
+graph LR
+A[GO to the website] -- Grab your api key --> B(Click on authorized buttton and past the api-key)
+B <--> D{test the api}
+
+```
+
 ## Install
 
 ```sh
@@ -63,20 +77,6 @@ ghost.Logout().then((d) => {
 ghost.isAuth(token).then((d) => {
   console.log(d);
 });
-```
-
-# API Documentation
-
-you can fins the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
-to use the api you will need and API-KEY please get your API key from this website LINK
-
-## FLOW
-
-```mermaid
-graph LR
-A[GO to the website] -- Grab your api key --> B(Click on authorized buttton and past the api-key)
-B <--> D{test the api}
-
 ```
 
 ## Author
