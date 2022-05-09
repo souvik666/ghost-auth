@@ -10,6 +10,14 @@
 
 > Rapidly integrate authentication and authorization for web, mobile, and legacy applications so you can focus on your core business.
 
+
+# Quick links
+
+ - **[Get Free API key](ghost-auth.netlify.app)**
+ - **[API Documentation](https://ghost-auth-service.herokuapp.com/)**
+   
+ - **[Ghost auth npm package](https://www.npmjs.com/package/ghost-auth)**
+
 # API Documentation
 
 you can find the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
