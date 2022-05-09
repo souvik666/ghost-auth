@@ -13,7 +13,7 @@
 
 # Quick links
 
- - **[Get Free API key](ghost-auth.netlify.app)**
+ - **[Get Free API key](https://ghost-auth.netlify.app/)**
  - **[API Documentation](https://ghost-auth-service.herokuapp.com/)**
    
  - **[Ghost auth npm package](https://www.npmjs.com/package/ghost-auth)**
