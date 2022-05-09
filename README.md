@@ -13,7 +13,7 @@
 # API Documentation
 
 you can find the API documentation here [LINK](https://ghost-auth-service.herokuapp.com/)
-to use the api or the npm package you will need an API-KEY please get your API key from this website LINK
+to use the api or the npm package you will need an API-KEY please get your API key from this website [LINK](https://ghost-auth.netlify.app/)
 
 ## FLOW
 
