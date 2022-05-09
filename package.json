@@ -1,6 +1,6 @@
 {
   "name": "ghost-auth",
-  "version": "1.2.28",
+  "version": "1.2.37",
   "description": "",
   "main": "Ghost.auth.js",
   "scripts": {
