@@ -126,4 +126,27 @@ export default class GhostAuth {
         return e;
       });
   }
+
+  async DeleteAUser(email) {
+    try {
+      return instance
+        .delete("/v1/delete/api", {
+          headers: {
+            token: this.ApiKey,
+          },
+          data: {
+            email: email,
+          },
+        })
+        .then((d) => {
+          return d.data;
+        })
+        .catch((e) => {
+          return e.response.data;
+        });
+    } catch (error) {
+      return { msg: "something is wrong with ghost-auth server " + error };
+    }
+  }
 }
+

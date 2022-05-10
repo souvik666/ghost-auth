@@ -103,6 +103,17 @@ ghost.ResetPassword(otp, password, token).then((d) => {
 });
 ```
 
+## Delete A User
+
+```js
+
+ghost.DeleteAUser("someactualemail@email.com").then((d) => {
+  console.log(d);
+});
+
+
+```
+
 ## Author
 
 👤 **souvik666**
