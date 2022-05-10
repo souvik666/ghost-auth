@@ -148,5 +148,20 @@ export default class GhostAuth {
       return { msg: "something is wrong with ghost-auth server " + error };
     }
   }
+
+  async GetAllUsers() {
+    return instance
+      .get("/v1/getallusers/api", {
+        headers: {
+          token: this.ApiKey,
+        },
+      })
+      .then((d) => {
+        return d.data;
+      })
+      .catch((e) => {
+        return e.data;
+      });
+  }
 }
 
